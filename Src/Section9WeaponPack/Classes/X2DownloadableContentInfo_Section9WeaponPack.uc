@@ -205,29 +205,44 @@ static function SetUpSection9ClipSizeUpgrade(out X2WeaponUpgradeTemplate Templat
 {
 	//Parameters: Name AttachSocket, Name UIArmoryCameraPointTag, string MeshName, string ProjectileName, name MatchWeaponTemplate, optional bool AttachToPawn, optional string IconName, optional string InventoryIconName, optional string InventoryCategoryIcon, optional delegate<X2TacticalGameRulesetDataStructures.CheckUpgradeStatus> ValidateAttachmentFn
 	// Assault Rifles
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_CV', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_MG', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_BM', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_CV', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_MG', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_expmag", "", 'RIF_SEBC30_BM', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "", 'RIF_SEBC30_CV', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "", 'RIF_SEBC30_MG', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "", 'RIF_SEBC30_BM', , "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
 
 	// Shotguns
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_CV', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_MG', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_BM', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_CV', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_MG', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag", "", 'SG_KSGG1_BM', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag_loader", "", 'SG_KSGG1_CV', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag_loader", "", 'SG_KSGG1_MG', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_expmag_loader", "", 'SG_KSGG1_BM', , "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
 
 	// Cannons
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_CV', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_MG', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_BM', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_CV', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_MG', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag", "", 'MG_SEBMG_BM', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag_loader", "", 'MG_SEBMG_CV', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag_loader", "", 'MG_SEBMG_MG', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_expmag_loader", "", 'MG_SEBMG_BM', , "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
 
 	// Sniper Rifles
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_CV', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_MG', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_BM', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_CV', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_MG', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag", "", 'SR_SEBSR_BM', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag_loader", "", 'SR_SEBSR_CV', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag_loader", "", 'SR_SEBSR_MG', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_expmag_loader", "", 'SR_SEBSR_BM', , "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
 
 	// SMGs
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag_loader", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag_loader", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_expmag_loader", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_expmag_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", ReloadUpgradePresent);
 }
 
 static function SetUpSection9FreeFireUpgrade(out X2WeaponUpgradeTemplate Template)
@@ -263,29 +278,29 @@ static function SetUpSection9ReloadUpgrade(out X2WeaponUpgradeTemplate Template)
 {
 	//Parameters: Name AttachSocket, Name UIArmoryCameraPointTag, string MeshName, string ProjectileName, name MatchWeaponTemplate, optional bool AttachToPawn, optional string IconName, optional string InventoryIconName, optional string InventoryCategoryIcon, optional delegate<X2TacticalGameRulesetDataStructures.CheckUpgradeStatus> ValidateAttachmentFn
 	// Assault Rifles
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_CV', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_MG', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_BM', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_CV', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_MG', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_AssaultRifle_Mag', "S9_SEBUROPACK.MESH.SEBC30_loader", "", 'RIF_SEBC30_BM', , "img:///S9_SEBUROPACK.IMG.SEBC30_loader", "img:///S9_SEBUROPACK.IMG.SEBC30_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
 	
 	// Shotguns
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_CV', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_MG', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_BM', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_CV', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_MG', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.KSGG1_loader", "", 'SG_KSGG1_BM', , "img:///S9_SEBUROPACK.IMG.KSGG1_loader", "img:///S9_SEBUROPACK.IMG.KSGG1_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
 
 	// Cannons
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_CV', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_MG', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_BM', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_CV', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_MG', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Cannon_Mag', "S9_SEBUROPACK.MESH.SEBMG_loader", "", 'MG_SEBMG_BM', , "img:///S9_SEBUROPACK.IMG.SEBMG_loader", "img:///S9_SEBUROPACK.IMG.SEBMG_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
 
 	// Sniper Rifles
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_CV', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_MG', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_BM', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_CV', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_MG', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Sniper_Mag', "S9_SEBUROPACK.MESH.SEBSR_loader", "", 'SR_SEBSR_BM', , "img:///S9_SEBUROPACK.IMG.SEBSR_loader", "img:///S9_SEBUROPACK.IMG.SEBSR_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
 
 	// SMGs
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
-	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip");
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
+	Template.AddUpgradeAttachment('Mag', 'UIPawnLocation_WeaponUpgrade_Shotgun_Mag', "S9_SEBUROPACK.MESH.SEBC26A_loader", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_loader", "img:///S9_SEBUROPACK.IMG.SEBC26A_loader_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_clip", NoClipSizeUpgradePresent);
 }
 
 static function SetUpSection9MissDamageUpgrade(out X2WeaponUpgradeTemplate Template)
@@ -344,4 +359,50 @@ static function SetUpSection9FreeKillUpgrade(out X2WeaponUpgradeTemplate Templat
 	Template.AddUpgradeAttachment('Suppressor', 'UIPawnLocation_WeaponUpgrade_Shotgun_Suppressor', "S9_SEBUROPACK.MESH.SEBC26A_repeater", "", 'SMG_SEBC26A_CV', , "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater", "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_barrel");
 	Template.AddUpgradeAttachment('Suppressor', 'UIPawnLocation_WeaponUpgrade_Shotgun_Suppressor', "S9_SEBUROPACK.MESH.SEBC26A_repeater", "", 'SMG_SEBC26A_MG', , "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater", "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_barrel");
 	Template.AddUpgradeAttachment('Suppressor', 'UIPawnLocation_WeaponUpgrade_Shotgun_Suppressor', "S9_SEBUROPACK.MESH.SEBC26A_repeater", "", 'SMG_SEBC26A_BM', , "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater", "img:///S9_SEBUROPACK.IMG.SEBC26A_repeater_inv", "img:///UILibrary_StrategyImages.X2InventoryIcons.Inv_weaponIcon_barrel");
+}
+
+static function bool NoReloadUpgradePresent(array<X2WeaponUpgradeTemplate> AllUpgradeTemplates)
+{
+	return !ReloadUpgradePresent(AllUpgradeTemplates);
+}
+
+static function bool ReloadUpgradePresent(array<X2WeaponUpgradeTemplate> AllUpgradeTemplates)
+{
+	local X2WeaponUpgradeTemplate TestTemplate;
+
+	foreach AllUpgradeTemplates(TestTemplate)
+	{
+		if (TestTemplate.DataName == 'ReloadUpgrade' ||
+			TestTemplate.DataName == 'ReloadUpgrade_Bsc' ||
+			TestTemplate.DataName == 'ReloadUpgrade_Adv' ||
+			TestTemplate.DataName == 'ReloadUpgrade_Sup')
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+static function bool NoClipSizeUpgradePresent(array<X2WeaponUpgradeTemplate> AllUpgradeTemplates)
+{
+	return !ClipSizeUpgradePresent(AllUpgradeTemplates);
+}
+
+static function bool ClipSizeUpgradePresent(array<X2WeaponUpgradeTemplate> AllUpgradeTemplates)
+{
+	local X2WeaponUpgradeTemplate TestTemplate;
+
+	foreach AllUpgradeTemplates(TestTemplate)
+	{
+		if (TestTemplate.DataName == 'ClipSizeUpgrade' ||
+			TestTemplate.DataName == 'ClipSizeUpgrade_Bsc' ||
+			TestTemplate.DataName == 'ClipSizeUpgrade_Adv' ||
+			TestTemplate.DataName == 'ClipSizeUpgrade_Sup')
+		{
+			return true;
+		}
+	}
+
+	return false;
 }
