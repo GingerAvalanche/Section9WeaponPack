@@ -199,7 +199,7 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Conventional
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC30_schCV";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC30_schCV";
 	Template.Tier = 0;
 
 	Template.RangeAccuracy = default.MEDIUM_CONVENTIONAL_RANGE;
@@ -220,14 +220,14 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Conventional
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "S9_SEBUROPACK.ARC.WP_SEBC30";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC30";
 
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.MESH.SEBC30_optic0", , "img:///S9_SEBUROPACK.IMG.SEBC30_optic0");
-	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.MESH.SEBC30_mag0", , "img:///S9_SEBUROPACK.IMG.SEBC30_mag0");
-	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.MESH.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.IMG.SEBC30_suppressor0");
-	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.MESH.SEBC30_trigger0", , "img:///S9_SEBUROPACK.IMG.SEBC30_trigger0");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC30_optic0", , "img:///S9_SEBUROPACK.Img.SEBC30_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC30_mag0", , "img:///S9_SEBUROPACK.Img.SEBC30_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC30_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC30_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC30_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -253,7 +253,7 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Magnetic()
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'magnetic';
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC30_schMAG";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC30_schMAG";
 	Template.EquipSound = "Magnetic_Weapon_Equip";
 	Template.Tier = 2;
 
@@ -274,13 +274,13 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Magnetic()
 	Template.Abilities.AddItem('Reload');
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
-	Template.GameArchetype = "S9_SEBUROPACK.ARC.WP_SEBC30";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC30";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.MESH.SEBC30_optic0", , "img:///S9_SEBUROPACK.IMG.SEBC30_optic0");
-	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.MESH.SEBC30_mag0", , "img:///S9_SEBUROPACK.IMG.SEBC30_mag0");
-	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.MESH.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.IMG.SEBC30_suppressor0");
-	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.MESH.SEBC30_trigger0", , "img:///S9_SEBUROPACK.IMG.SEBC30_trigger0");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC30_optic0", , "img:///S9_SEBUROPACK.Img.SEBC30_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC30_mag0", , "img:///S9_SEBUROPACK.Img.SEBC30_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC30_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC30_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC30_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 	
@@ -305,7 +305,7 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Beam()
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'beam';
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC30_schBM";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC30_schBM";
 	Template.EquipSound = "Beam_Weapon_Equip";
 	Template.Tier = 4;
 
@@ -326,13 +326,13 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Beam()
 	Template.Abilities.AddItem('Reload');
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
-	Template.GameArchetype = "S9_SEBUROPACK.ARC.WP_SEBC30";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC30";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.MESH.SEBC30_optic0", , "img:///S9_SEBUROPACK.IMG.SEBC30_optic0");
-	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.MESH.SEBC30_mag0", , "img:///S9_SEBUROPACK.IMG.SEBC30_mag0");
-	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.MESH.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.IMG.SEBC30_suppressor0");
-	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.MESH.SEBC30_trigger0", , "img:///S9_SEBUROPACK.IMG.SEBC30_trigger0");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC30_optic0", , "img:///S9_SEBUROPACK.Img.SEBC30_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC30_mag0", , "img:///S9_SEBUROPACK.Img.SEBC30_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC30_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC30_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC30_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC30_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -361,7 +361,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Conventional()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'pistol';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBM5_schCV";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBM5_schCV";
 	Template.EquipSound = "Secondary_Weapon_Equip_Conventional";
 	Template.Tier = 0;
 
@@ -388,7 +388,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Conventional()
 	Template.SetAnimationNameForAbility('FanFire', 'FF_FireMultiShotConvA');	
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Pistol_CV.WP_Pistol_CV";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBM5";
 
 	Template.iPhysicsImpulse = 5;
 	
@@ -413,7 +413,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Magnetic()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'pistol';
 	Template.WeaponTech = 'magnetic';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBM5_schMAG";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBM5_schMAG";
 	Template.EquipSound = "Secondary_Weapon_Equip_Magnetic";
 	Template.Tier = 2;
 
@@ -440,7 +440,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Magnetic()
 	Template.SetAnimationNameForAbility('FanFire', 'FF_FireMultiShotMagA');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Pistol_MG.WP_Pistol_MG";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBM5";
 
 	Template.iPhysicsImpulse = 5;
 
@@ -467,7 +467,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Beam()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'pistol';
 	Template.WeaponTech = 'beam';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBM5_schBM";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBM5_schBM";
 	Template.EquipSound = "Secondary_Weapon_Equip_Beam";
 	Template.Tier = 4;
 
@@ -494,7 +494,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Beam()
 	Template.SetAnimationNameForAbility('FanFire', 'FF_FireMultiShotBeamA');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Pistol_BM.WP_Pistol_BM";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBM5";
 
 	Template.iPhysicsImpulse = 5;
 
@@ -525,7 +525,7 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Conventional()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'shotgun';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.KSGG1_schCV";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.KSGG1_schCV";
 	Template.EquipSound = "Conventional_Weapon_Equip";
 	Template.Tier = 0;
 
@@ -547,15 +547,13 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Conventional()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Shotgun_CV.WP_Shotgun_CV";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_KSGG1";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Shotgun';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Foregrip', "ConvShotgun.Meshes.SM_ConvShotgun_ForegripA" /*FORGRIP INCLUDED IN MAG IMAGE*/);
-	//Template.AddDefaultAttachment('Mag', "ConvShotgun.Meshes.SM_ConvShotgun_MagA", , "img:///UILibrary_Common.ConvShotgun.ConvShotgun_MagA");
-	//Template.AddDefaultAttachment('Reargrip', "ConvShotgun.Meshes.SM_ConvShotgun_ReargripA" /*REARGRIP IS INCLUDED IN THE TRIGGER IMAGE*/);
-	//Template.AddDefaultAttachment('Stock', "ConvShotgun.Meshes.SM_ConvShotgun_StockA", , "img:///UILibrary_Common.ConvShotgun.ConvShotgun_StockA");
-	//Template.AddDefaultAttachment('Trigger', "ConvShotgun.Meshes.SM_ConvShotgun_TriggerA", , "img:///UILibrary_Common.ConvShotgun.ConvShotgun_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.KSGG1_optic0", , "img:///S9_SEBUROPACK.Img.KSGG1_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.KSGG1_mag0", , "img:///S9_SEBUROPACK.Img.KSGG1_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.KSGG1_suppressor0", , "img:///S9_SEBUROPACK.Img.KSGG1_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.KSGG1_trigger0", , "img:///S9_SEBUROPACK.Img.KSGG1_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -581,7 +579,7 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Magnetic()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'shotgun';
 	Template.WeaponTech = 'magnetic';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.KSGG1_schMAG";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.KSGG1_schMAG";
 	Template.EquipSound = "Magnetic_Weapon_Equip";
 	Template.Tier = 3;
 
@@ -602,15 +600,13 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Magnetic()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Shotgun_MG.WP_Shotgun_MG";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_KSGG1";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Shotgun';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Foregrip', "MagShotgun.Meshes.SM_MagShotgun_ForegripA", , "img:///UILibrary_Common.UI_MagShotgun.MagShotgun_ForegripA");
-	//Template.AddDefaultAttachment('Mag', "MagShotgun.Meshes.SM_MagShotgun_MagA", , "img:///UILibrary_Common.UI_MagShotgun.MagShotgun_MagA");
-	//Template.AddDefaultAttachment('Reargrip', "MagShotgun.Meshes.SM_MagShotgun_ReargripA" /* included in trigger image */);
-	//Template.AddDefaultAttachment('Stock', "MagShotgun.Meshes.SM_MagShotgun_StockA", , "img:///UILibrary_Common.UI_MagShotgun.MagShotgun_StockA");
-	//Template.AddDefaultAttachment('Trigger', "MagShotgun.Meshes.SM_MagShotgun_TriggerA", , "img:///UILibrary_Common.UI_MagShotgun.MagShotgun_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.KSGG1_optic0", , "img:///S9_SEBUROPACK.Img.KSGG1_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.KSGG1_mag0", , "img:///S9_SEBUROPACK.Img.KSGG1_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.KSGG1_suppressor0", , "img:///S9_SEBUROPACK.Img.KSGG1_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.KSGG1_trigger0", , "img:///S9_SEBUROPACK.Img.KSGG1_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -638,7 +634,7 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Beam()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'shotgun';
 	Template.WeaponTech = 'beam';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.KSGG1_schBM";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.KSGG1_schBM";
 	Template.EquipSound = "Beam_Weapon_Equip";
 	Template.Tier = 5;
 
@@ -659,16 +655,13 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Beam()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	//Template.GameArchetype = "WP_Shotgun_BM.WP_Shotgun_BM";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_KSGG1";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Shotgun';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "BeamShotgun.Meshes.SM_BeamShotgun_MagA", , "img:///UILibrary_Common.UI_BeamShotgun.BeamShotgun_MagA");
-	//Template.AddDefaultAttachment('Suppressor', "BeamShotgun.Meshes.SM_BeamShotgun_SuppressorA", , "img:///UILibrary_Common.UI_BeamShotgun.BeamShotgun_SupressorA");
-	//Template.AddDefaultAttachment('Core_Left', "BeamShotgun.Meshes.SM_BeamShotgun_CoreA", , "img:///UILibrary_Common.UI_BeamShotgun.BeamShotgun_CoreA");
-	//Template.AddDefaultAttachment('Core_Right', "BeamShotgun.Meshes.SM_BeamShotgun_CoreA");
-	//Template.AddDefaultAttachment('HeatSink', "BeamShotgun.Meshes.SM_BeamShotgun_HeatSinkA", , "img:///UILibrary_Common.UI_BeamShotgun.BeamShotgun_HeatsinkA");
-	//Template.AddDefaultAttachment('Foregrip', "BeamShotgun.Meshes.SM_BeamShotgun_ForegripA", , "img:///UILibrary_Common.UI_BeamShotgun.BeamShotgun_Foregrip");
-	//Template.AddDefaultAttachment('Light', "BeamAttachments.Meshes.BeamFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.KSGG1_optic0", , "img:///S9_SEBUROPACK.Img.KSGG1_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.KSGG1_mag0", , "img:///S9_SEBUROPACK.Img.KSGG1_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.KSGG1_suppressor0", , "img:///S9_SEBUROPACK.Img.KSGG1_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.KSGG1_trigger0", , "img:///S9_SEBUROPACK.Img.KSGG1_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -700,7 +693,7 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Conventional()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'cannon';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBMG_schCV";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBMG_schCV";
 	Template.EquipSound = "Conventional_Weapon_Equip";
 	Template.Tier = 0;
 
@@ -722,16 +715,13 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Conventional()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_Cannon_CV.WP_Cannon_CV";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBMG";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Cannon';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', 		"ConvCannon.Meshes.SM_ConvCannon_MagA", , "img:///UILibrary_Common.ConvCannon.ConvCannon_MagA");
-	//Template.AddDefaultAttachment('Reargrip',   "ConvCannon.Meshes.SM_ConvCannon_ReargripA"/*REARGRIP INCLUDED IN TRIGGER IMAGE*/);
-	//Template.AddDefaultAttachment('Stock', 		"ConvCannon.Meshes.SM_ConvCannon_StockA", , "img:///UILibrary_Common.ConvCannon.ConvCannon_StockA");
-	//Template.AddDefaultAttachment('StockSupport', "ConvCannon.Meshes.SM_ConvCannon_StockA_Support");
-	//Template.AddDefaultAttachment('Suppressor', "ConvCannon.Meshes.SM_ConvCannon_SuppressorA");
-	//Template.AddDefaultAttachment('Trigger', "ConvCannon.Meshes.SM_ConvCannon_TriggerA", , "img:///UILibrary_Common.ConvCannon.ConvCannon_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBMG_optic0", , "img:///S9_SEBUROPACK.Img.SEBMG_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBMG_mag0", , "img:///S9_SEBUROPACK.Img.SEBMG_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBMG_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBMG_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBMG_trigger0", , "img:///S9_SEBUROPACK.Img.SEBMG_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -754,7 +744,7 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Magnetic()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'cannon';
 	Template.WeaponTech = 'magnetic';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBMG_schMAG";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBMG_schMAG";
 	Template.EquipSound = "Magnetic_Weapon_Equip";
 	Template.Tier = 3;
 
@@ -776,14 +766,13 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Magnetic()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_Cannon_MG.WP_Cannon_MG";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBMG";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Cannon';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "MagCannon.Meshes.SM_MagCannon_MagA", , "img:///UILibrary_Common.UI_MagCannon.MagCannon_MagA");
-	//Template.AddDefaultAttachment('Reargrip',   "MagCannon.Meshes.SM_MagCannon_ReargripA");
-	//Template.AddDefaultAttachment('Foregrip', "MagCannon.Meshes.SM_MagCannon_StockA", , "img:///UILibrary_Common.UI_MagCannon.MagCannon_StockA");
-	//Template.AddDefaultAttachment('Trigger', "MagCannon.Meshes.SM_MagCannon_TriggerA", , "img:///UILibrary_Common.UI_MagCannon.MagCannon_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBMG_optic0", , "img:///S9_SEBUROPACK.Img.SEBMG_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBMG_mag0", , "img:///S9_SEBUROPACK.Img.SEBMG_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBMG_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBMG_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBMG_trigger0", , "img:///S9_SEBUROPACK.Img.SEBMG_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -808,7 +797,7 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Beam()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'cannon';
 	Template.WeaponTech = 'beam';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBMG_schBM";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBMG_schBM";
 	Template.EquipSound = "Beam_Weapon_Equip";
 	Template.Tier = 5;
 
@@ -830,15 +819,13 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Beam()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_Cannon_BM.WP_Cannon_BM";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBMG";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Cannon';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "BeamCannon.Meshes.SM_BeamCannon_MagA", , "img:///UILibrary_Common.UI_BeamCannon.BeamCannon_MagA");
-	//Template.AddDefaultAttachment('Core', "BeamCannon.Meshes.SM_BeamCannon_CoreA", , "img:///UILibrary_Common.UI_BeamCannon.BeamCannon_CoreA");
-	//Template.AddDefaultAttachment('Core_Center',"BeamCannon.Meshes.SM_BeamCannon_CoreA_Center");
-	//Template.AddDefaultAttachment('HeatSink', "BeamCannon.Meshes.SM_BeamCannon_HeatSinkA", , "img:///UILibrary_Common.UI_BeamCannon.BeamCannon_HeatsinkA");
-	//Template.AddDefaultAttachment('Suppressor', "BeamCannon.Meshes.SM_BeamCannon_SuppressorA", , "img:///UILibrary_Common.UI_BeamCannon.BeamCannon_SupressorA");
-	//Template.AddDefaultAttachment('Light', "BeamAttachments.Meshes.BeamFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBMG_optic0", , "img:///S9_SEBUROPACK.Img.SEBMG_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBMG_mag0", , "img:///S9_SEBUROPACK.Img.SEBMG_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBMG_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBMG_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBMG_trigger0", , "img:///S9_SEBUROPACK.Img.SEBMG_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -867,7 +854,7 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Conventional(
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'sniper_rifle';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBSR_schCV";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBSR_schCV";
 	Template.EquipSound = "Conventional_Weapon_Equip";
 	Template.Tier = 0;
 
@@ -891,16 +878,13 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Conventional(
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_SniperRifle_CV.WP_SniperRifle_CV";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBSR";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Sniper';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "ConvSniper.Meshes.SM_ConvSniper_MagA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_MagA");
-	//Template.AddDefaultAttachment('Optic', "ConvSniper.Meshes.SM_ConvSniper_OpticA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_OpticA");
-	//Template.AddDefaultAttachment('Reargrip', "ConvSniper.Meshes.SM_ConvSniper_ReargripA" /*REARGRIP INCLUDED IN TRIGGER IMAGE*/);
-	//Template.AddDefaultAttachment('Stock', "ConvSniper.Meshes.SM_ConvSniper_StockA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_StockA");
-	//Template.AddDefaultAttachment('Suppressor', "ConvSniper.Meshes.SM_ConvSniper_SuppressorA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_SuppressorA");
-	//Template.AddDefaultAttachment('Trigger', "ConvSniper.Meshes.SM_ConvSniper_TriggerA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBSR_optic0", , "img:///S9_SEBUROPACK.Img.SEBSR_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBSR_mag0", , "img:///S9_SEBUROPACK.Img.SEBSR_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBSR_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBSR_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBSR_trigger0", , "img:///S9_SEBUROPACK.Img.SEBSR_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -923,7 +907,7 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Magnetic()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'sniper_rifle';
 	Template.WeaponTech = 'magnetic';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBSR_schMAG";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBSR_schMAG";
 	Template.EquipSound = "Magnetic_Weapon_Equip";
 	Template.Tier = 3;
 
@@ -947,16 +931,13 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Magnetic()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_SniperRifle_MG.WP_SniperRifle_MG";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBSR";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Sniper';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "MagSniper.Meshes.SM_MagSniper_MagA", , "img:///UILibrary_Common.UI_MagSniper.MagSniper_MagA");
-	//Template.AddDefaultAttachment('Optic', "MagSniper.Meshes.SM_MagSniper_OpticA", , "img:///UILibrary_Common.UI_MagSniper.MagSniper_OpticA");
-	//Template.AddDefaultAttachment('Reargrip',   "MagSniper.Meshes.SM_MagSniper_ReargripA" /* image included in TriggerA */);
-	//Template.AddDefaultAttachment('Stock', "MagSniper.Meshes.SM_MagSniper_StockA", , "img:///UILibrary_Common.UI_MagSniper.MagSniper_StockA");
-	//Template.AddDefaultAttachment('Suppressor', "MagSniper.Meshes.SM_MagSniper_SuppressorA", , "img:///UILibrary_Common.UI_MagSniper.MagSniper_SuppressorA");
-	//Template.AddDefaultAttachment('Trigger', "MagSniper.Meshes.SM_MagSniper_TriggerA", , "img:///UILibrary_Common.UI_MagSniper.MagSniper_TriggerA");
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBSR_optic0", , "img:///S9_SEBUROPACK.Img.SEBSR_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBSR_mag0", , "img:///S9_SEBUROPACK.Img.SEBSR_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBSR_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBSR_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBSR_trigger0", , "img:///S9_SEBUROPACK.Img.SEBSR_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -981,7 +962,7 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Beam()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'sniper_rifle';
 	Template.WeaponTech = 'beam';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBSR_schBM";
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBSR_schBM";
 	Template.EquipSound = "Beam_Weapon_Equip";
 	Template.Tier = 5;
 
@@ -1003,15 +984,13 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Beam()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "WP_SniperRifle_BM.WP_SniperRifle_BM";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBSR";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Sniper';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Optic', "BeamSniper.Meshes.SM_BeamSniper_OpticA", , "img:///UILibrary_Common.UI_BeamSniper.BeamSniper_OpticA");
-	//Template.AddDefaultAttachment('Mag', "BeamSniper.Meshes.SM_BeamSniper_MagA", , "img:///UILibrary_Common.UI_BeamSniper.BeamSniper_MagA");
-	//Template.AddDefaultAttachment('Suppressor', "BeamSniper.Meshes.SM_BeamSniper_SuppressorA", , "img:///UILibrary_Common.UI_BeamSniper.BeamSniper_SupressorA");
-	//Template.AddDefaultAttachment('Core', "BeamSniper.Meshes.SM_BeamSniper_CoreA", , "img:///UILibrary_Common.UI_BeamSniper.BeamSniper_CoreA");
-	//Template.AddDefaultAttachment('HeatSink', "BeamSniper.Meshes.SM_BeamSniper_HeatSinkA", , "img:///UILibrary_Common.UI_BeamSniper.BeamSniper_HeatsinkA");
-	//Template.AddDefaultAttachment('Light', "BeamAttachments.Meshes.BeamFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBSR_optic0", , "img:///S9_SEBUROPACK.Img.SEBSR_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBSR_mag0", , "img:///S9_SEBUROPACK.Img.SEBSR_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBSR_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBSR_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBSR_trigger0", , "img:///S9_SEBUROPACK.Img.SEBSR_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -1040,7 +1019,7 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Conventional()
 	Template.ItemCat = 'weapon';
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'conventional';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC26A_schCV";  
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC26A_schCV";  
 	Template.WeaponPanelImage = "_ConventionalRifle";                       // used by the UI. Probably determines iconview of the weapon.
 	Template.Tier = 0;
 
@@ -1065,16 +1044,14 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Conventional()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "LWSMG_CV.WP_SMG_CV";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC26A";
 
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "LWSMG_CV.Meshes.SK_LWConvSMG_MagA", , "img:///UILibrary_SMG.conventional.LWConvSMG_MagA");
-	//Template.AddDefaultAttachment('Optic', "LWSMG_CV.Meshes.SK_LWConvSMG_OpticA", , "img:///UILibrary_SMG.conventional.LWConvSMG_OpticA");
-	//Template.AddDefaultAttachment('Stock', "LWSMG_CV.Meshes.SK_LWConvSMG_Stock");  // renamed to just 'Stock' when fixing seaming issues for TTP 52
-	//Template.AddDefaultAttachment('StockB', "", , "img:///UILibrary_SMG.conventional.LWConvSMG_StockA");  // attach image to StockB so it gets replaced with ugprade
-	//Template.AddDefaultAttachment('Trigger', "ConvAssaultRifle.Meshes.SM_ConvAssaultRifle_TriggerA", , "img:///UILibrary_SMG.conventional.LWConvSMG_TriggerA"); // re-use Assault Rifle trigger
-	//Template.AddDefaultAttachment('Light', "ConvAttachments.Meshes.SM_ConvFlashLight"); //, , "img:///UILibrary_Common.ConvAssaultRifle.ConvAssault_LightA");  // re-use common conventional flashlight
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC26A_optic0", , "img:///S9_SEBUROPACK.Img.SEBC26A_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC26A_mag0", , "img:///S9_SEBUROPACK.Img.SEBC26A_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC26A_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC26A_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC26A_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC26A_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
@@ -1099,7 +1076,7 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Magnetic()
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'magnetic';
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC26A_schMAG";   
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC26A_schMAG";   
 	Template.WeaponPanelImage = "_MagneticRifle";                       // used by the UI. Probably determines iconview of the weapon.
 	Template.EquipSound = "Magnetic_Weapon_Equip";
 	Template.Tier = 2;
@@ -1125,16 +1102,14 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Magnetic()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "LWSMG_MG.WP_SMG_MG";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC26A";
 
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "MagAssaultRifle.Meshes.SM_MagAssaultRifle_MagA", , "img:///UILibrary_SMG.magnetic.LWMagSMG_MagA"); 
-	//Template.AddDefaultAttachment('Optic', "LWSMG_MG.Meshes.SK_LWMagSMG_OpticA", , "img:///UILibrary_SMG.magnetic.LWMagSMG_OpticA");
-	//Template.AddDefaultAttachment('Reargrip', "MagAssaultRifle.Meshes.SM_MagAssaultRifle_ReargripA", , /* included with TriggerA */);
-	//Template.AddDefaultAttachment('Stock', "MagAssaultRifle.Meshes.SM_MagAssaultRifle_StockA", , "img:///UILibrary_SMG.magnetic.LWMagSMG_StockA");
-	//Template.AddDefaultAttachment('Trigger', "MagAssaultRifle.Meshes.SM_MagAssaultRifle_TriggerA", , "img:///UILibrary_SMG.magnetic.LWMagSMG_TriggerA");
-	//Template.AddDefaultAttachment('Light', "LWSMG_MG.Meshes.SK_MagFlashLight");  // alternative -- use mag flashlight, unused in base-game, converted to skeletal mesh
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC26A_optic0", , "img:///S9_SEBUROPACK.Img.SEBC26A_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC26A_mag0", , "img:///S9_SEBUROPACK.Img.SEBC26A_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC26A_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC26A_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC26A_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC26A_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 	
@@ -1158,7 +1133,7 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Beam()
 	Template.WeaponCat = 'rifle';
 	Template.WeaponTech = 'beam';
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.IMG.SEBC26A_schBM"; 
+	Template.strImage = "img:///S9_SEBUROPACK.Img.SEBC26A_schBM"; 
 	Template.WeaponPanelImage = "_BeamRifle";                       // used by the UI. Probably determines iconview of the weapon.
 	Template.EquipSound = "Beam_Weapon_Equip";
 	Template.Tier = 4;
@@ -1184,14 +1159,14 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Beam()
 	Template.Abilities.AddItem('HotLoadAmmo');
 	
 	// This all the resources; sounds, animations, models, physics, the works.
-	Template.GameArchetype = "LWSMG_BM.WP_SMG_BM";
+	Template.GameArchetype = "S9_SEBUROPACK.Arc.WP_SEBC26A";
 
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_AssaultRifle';
 	//Parameters are : 	name AttachSocket, string MeshName, optional bool AttachToPawn, optional string Icon, optional string InventoryIconName, optional string InventoryCategoryIcon
-	//Template.AddDefaultAttachment('Mag', "BeamAssaultRifle.Meshes.SM_BeamAssaultRifle_MagA", , "img:///UILibrary_SMG.Beam.LWBeamSMG_MagA");
-	//Template.AddDefaultAttachment('Core', "LWSMG_BM.Meshes.SK_LWBeamSMG_CoreB", , "img:///UILibrary_SMG.Beam.LWBeamSMG_CoreA");
-	//Template.AddDefaultAttachment('HeatSink', "LWSMG_BM.Meshes.SK_LWBeamSMG_HeatsinkA", , "img:///UILibrary_SMG.Beam.LWBeamSMG_HeatsinkA");
-	//Template.AddDefaultAttachment('Light', "BeamAttachments.Meshes.BeamFlashLight");
+	//Template.AddDefaultAttachment('Optic', "S9_SEBUROPACK.Mesh.SEBC26A_optic0", , "img:///S9_SEBUROPACK.Img.SEBC26A_optic0");
+	Template.AddDefaultAttachment('Mag', "S9_SEBUROPACK.Mesh.SEBC26A_mag0", , "img:///S9_SEBUROPACK.Img.SEBC26A_mag0");
+	Template.AddDefaultAttachment('Suppressor', "S9_SEBUROPACK.Mesh.SEBC26A_suppressor0", , "img:///S9_SEBUROPACK.Img.SEBC26A_suppressor0");
+	Template.AddDefaultAttachment('Trigger', "S9_SEBUROPACK.Mesh.SEBC26A_trigger0", , "img:///S9_SEBUROPACK.Img.SEBC26A_trigger0");
 
 	Template.iPhysicsImpulse = 5;
 
