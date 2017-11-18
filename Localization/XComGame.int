@@ -1,0 +1,155 @@
+[RIF_SEBC30_CV X2WeaponTemplate]
+FriendlyName="SEBURO C-30"
+FriendlyNamePlural="SEBURO C-30s"
+BriefSummary="A sturdy bullpup rifle with an extended barrel, reserved for Section 9's heavy assaults."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[RIF_SEBC30_MG X2WeaponTemplate]
+FriendlyName="SEBURO C-30"
+FriendlyNamePlural="SEBURO C-30s"
+BriefSummary="A sturdy bullpup rifle with an extended barrel, reserved for Section 9's heavy assaults."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Magnetic Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[RIF_SEBC30_BM X2WeaponTemplate]
+FriendlyName="SEBURO C-30"
+FriendlyNamePlural="SEBURO C-30s"
+BriefSummary="A sturdy bullpup rifle with an extended barrel, reserved for Section 9's heavy assaults."
+TacticalText="<Bullet/> The Plasma Rifle is a general purpose, supremely powerful primary infantry weapons system.\n<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Use upgrades looted from enemies to improve the Plasma Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[PIS_SEBM5_CV X2WeaponTemplate]
+FriendlyName="SEBURO M5"
+FriendlyNamePlural="SEBURO M5s"
+BriefSummary="Section 9's standard issue 9mm pistol. Accurate and deadly."
+TacticalText="<Bullet/> Pistols can be much more than a sidearm in the hands of a trained Sharpshooter.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action.\n<Bullet/> Sharpshooters can train several abilities that dramatically enhance their use of pistols."
+AbilityDescName="pistol"
+
+[PIS_SEBM5_MG X2WeaponTemplate]
+FriendlyName="SEBURO M5"
+FriendlyNamePlural="SEBURO M5s"
+BriefSummary="Section 9's standard issue 9mm pistol. Accurate and deadly."
+TacticalText="<Bullet/> Magnetic pistols are substantially more effective than their conventional precursors.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action."
+AbilityDescName="pistol"
+
+[PIS_SEBM5_BM X2WeaponTemplate]
+FriendlyName="SEBURO M5"
+FriendlyNamePlural="SEBURO M5s"
+BriefSummary="Section 9's standard issue 9mm pistol. Accurate and deadly."
+TacticalText="<Bullet/> Beam pistols are the most powerful handguns on Earth.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action."
+AbilityDescName="pistol"
+
+[SG_KSGG1_CV X2WeaponTemplate]
+FriendlyName="KSG-G1"
+FriendlyNamePlural="KSG-G1s"
+BriefSummary="A bullpup shotgun with a long barrel and a mechanized chamber, allowing for longer ranged shots and continuous firing."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shotgun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[SG_KSGG1_MG X2WeaponTemplate]
+FriendlyName="KSG-G1"
+FriendlyNamePlural="KSG-G1s"
+BriefSummary="A bullpup shotgun with a long barrel and a mechanized chamber, allowing for longer ranged shots and continuous firing."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of XCOM's combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shard Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[SG_KSGG1_BM X2WeaponTemplate]
+FriendlyName="KSG-G1"
+FriendlyNamePlural="KSG-G1s"
+BriefSummary="A bullpup shotgun with a long barrel and a mechanized chamber, allowing for longer ranged shots and continuous firing."
+TacticalText="<Bullet/> This is the most advanced shotgun-style weapon available in the XCOM arsenal.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Storm Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[MG_SEBMG_CV X2WeaponTemplate]
+FriendlyName="SEBURO MG"
+FriendlyNamePlural="SEBURO MGs"
+BriefSummary="This bullpup machine gun is rarely seen in Section 9 operations, being more suited for front-line work."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Use upgrades looted from enemies to improve the Cannon's tactical effectiveness."
+AbilityDescName="cannon"
+
+[MG_SEBMG_MG X2WeaponTemplate]
+FriendlyName="SEBURO MG"
+FriendlyNamePlural="SEBURO MGs"
+BriefSummary="This bullpup machine gun is rarely seen in Section 9 operations, being more suited for front-line work."
+TacticalText="<Bullet/> The Mag Cannon is a much more powerful, yet equally deployable, version of the conventional Cannon.\n<Bullet/> Use upgrades looted from enemies to improve the Mag Cannon's tactical effectiveness."
+AbilityDescName="cannon"
+
+[MG_SEBMG_BM X2WeaponTemplate]
+FriendlyName="SEBURO MG"
+FriendlyNamePlural="SEBURO MGs"
+BriefSummary="This bullpup machine gun is rarely seen in Section 9 operations, being more suited for front-line work."
+TacticalText="<Bullet/> The Beam Cannon is the most powerful combat support weapon human forces can deploy.\n<Bullet/> Use upgrades looted from enemies to improve the Beam Cannon's tactical effectiveness."
+AbilityDescName="cannon"
+
+[SR_SEBSR_CV X2WeaponTemplate]
+FriendlyName="SEBURO SR"
+FriendlyNamePlural="SEBURO SRs"
+BriefSummary="A lighter, personal version of Seburo's anti-tank rifle. Designed with cyberized targets in mind."
+TacticalText="<Bullet/> The sniper rifle always takes two actions to fire.\n<Bullet/> The sniper rifle suffers a penalty to hit at close range.\n<Bullet/> Use upgrades looted from enemies to improve the Sniper Rifle's tactical effectiveness."
+AbilityDescName="sniper rifle"
+
+[SR_SEBSR_MG X2WeaponTemplate]
+FriendlyName="SEBURO SR"
+FriendlyNamePlural="SEBURO SRs"
+BriefSummary="A lighter, personal version of Seburo's anti-tank rifle. Designed with cyberized targets in mind."
+TacticalText="<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Use upgrades looted from enemies to improve the Gauss Rifle's tactical effectiveness."
+AbilityDescName="sniper rifle"
+
+[SR_SEBSR_BM X2WeaponTemplate]
+FriendlyName="SEBURO SR"
+FriendlyNamePlural="SEBURO SRs"
+BriefSummary="A lighter, personal version of Seburo's anti-tank rifle. Designed with cyberized targets in mind."
+TacticalText="<Bullet/> This is the apex of sniper rifle technology.\n<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Use upgrades looted from enemies to improve the plasma sniper rifle's tactical effectiveness."
+AbilityDescName="sniper rifle"
+
+[SMG_SEBC26A_CV X2WeaponTemplate]
+FriendlyName="SEBURO C-26A"
+FriendlyNamePlural="SEBURO C-26As"
+BriefSummary="A personal defense bullpup weapon chambered for 5.45x45mm rounds. The standard for Section 9 combat ops."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades recovered from ADVENT enemies to improve the SMG's tactical effectiveness. \n<Bullet/> SMG-style weapons offer bonus mobility, close-quarters accuracy and concealment relative to assault rifles, but they do less damage, have less ammo, and suffer accuracy penalties at long range."
+AbilityDescName="SMG"
+
+[SMG_SEBC26A_MG X2WeaponTemplate]
+FriendlyName="SEBURO C-26A"
+FriendlyNamePlural="SEBURO C-26As"
+BriefSummary="A personal defense bullpup weapon chambered for 5.45x45mm rounds. The standard for Section 9 combat ops."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades recovered from ADVENT enemies to improve the Stuttermag's tactical effectiveness. \n<Bullet/> SMG-style weapons offer bonus mobility, close-quarters accuracy and concealment relative to assault rifles, but they do less damage, have less ammo, and suffer accuracy penalties at long range."
+AbilityDescName="SMG"
+
+[SMG_SEBC26A_BM X2WeaponTemplate]
+FriendlyName="SEBURO C-26A"
+FriendlyNamePlural="SEBURO C-26As"
+BriefSummary="A personal defense bullpup weapon chambered for 5.45x45mm rounds. The standard for Section 9 combat ops."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn\n<Bullet/> Use upgrades recovered from ADVENT enemies to improve the Scramgun's tactical effectiveness. \n<Bullet/> SMG-style weapons offer bonus mobility, close-quarters accuracy and concealment relative to assault rifles, but they do less damage, have less ammo, and suffer accuracy penalties at long range."
+AbilityDescName="SMG"
+
+[RIF_SEBC30_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[RIF_SEBC30_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[PIS_SEBM5_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SHARPSHOOTER"
+[PIS_SEBM5_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SHARPSHOOTER"
+
+[SG_KSGG1_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="RANGER"
+[SG_KSGG1_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="RANGER"
+
+[MG_SEBMG_MG_Schemativ X2SchematicTemplate]
+m_strClassLabel="GRENADIER"
+[MG_SEBMG_BM_Schemativ X2SchematicTemplate]
+m_strClassLabel="GRENADIER"
+
+[SR_SEBSR_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SHARPSHOOTER"
+[SR_SEBSR_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SHARPSHOOTER"
+
+[SMG_SEBC26A_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[SMG_SEBC26A_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
