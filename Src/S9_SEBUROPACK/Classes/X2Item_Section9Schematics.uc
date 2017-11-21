@@ -81,7 +81,7 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Magnetic_Sch
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'RIF_SEBC30_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBC30_schMAG";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBC30_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 1;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -125,7 +125,7 @@ static function X2DataTemplate CreateTemplate_Section9_AssaultRifle_Beam_Schemat
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'RIF_SEBC30_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBC30_schBM";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBC30_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 3;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -168,7 +168,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Magnetic_Schematic
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'PIS_SEBM5_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBM5_schMAG";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBM5_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 1;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -212,7 +212,7 @@ static function X2DataTemplate CreateTemplate_Section9_Pistol_Beam_Schematic()
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'PIS_SEBM5_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBM5_schBM";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBM5_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 3;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -255,7 +255,7 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Magnetic_Schemati
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SG_KSGG1_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.KSGG1_schMAG";
+	Template.strImage = "img:///S9_SEBUROassets.img.KSGG1_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 2;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -299,7 +299,7 @@ static function X2DataTemplate CreateTemplate_Section9_Shotgun_Beam_Schematic()
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SG_KSGG1_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.KSGG1_schBM";
+	Template.strImage = "img:///S9_SEBUROassets.img.KSGG1_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 4;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -342,7 +342,7 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Magnetic_Schematic
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'MG_SEBMG_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBMG_schMAG";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBMG_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 2;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -386,7 +386,7 @@ static function X2DataTemplate CreateTemplate_Section9_Cannon_Beam_Schematic()
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'MG_SEBMG_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBMG_schBM";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBMG_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 4;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -429,7 +429,7 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Magnetic_Sche
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SR_SEBSR_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBSR_schMAG";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBSR_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 2;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -473,7 +473,7 @@ static function X2DataTemplate CreateTemplate_Section9_SniperRifle_Beam_Schemati
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SR_SEBSR_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBSR_schBM";
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBSR_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 4;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -516,10 +516,7 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Magnetic_Schematic()
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SMG_SEBC26A_MG_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBC26A_schMAG"; 
-	Template.CanBeBuilt = true;
-	Template.bOneTimeBuild = true;
-	Template.HideInInventory = true;
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBC26A_schMAG";
 	Template.PointsToComplete = 0;
 	Template.Tier = 1;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
@@ -563,10 +560,7 @@ static function X2DataTemplate CreateTemplate_Section9_SMG_Beam_Schematic()
 	`CREATE_X2TEMPLATE(class'X2SchematicTemplate', Template, 'SMG_SEBC26A_BM_Schematic');
 
 	Template.ItemCat = 'weapon';
-	Template.strImage = "img:///S9_SEBUROPACK.img.SEBC26A_schBM"; 
-	Template.CanBeBuilt = true;
-	Template.bOneTimeBuild = true;
-	Template.HideInInventory = true;
+	Template.strImage = "img:///S9_SEBUROassets.img.SEBC26A_schBM";
 	Template.PointsToComplete = 0;
 	Template.Tier = 3;
 	Template.OnBuiltFn = class'X2Item_DefaultSchematics'.static.UpgradeItems;
