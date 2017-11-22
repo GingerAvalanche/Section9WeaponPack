@@ -139,9 +139,9 @@ m_strClassLabel="RANGER"
 [SG_KSGG1_BM_Schematic X2SchematicTemplate]
 m_strClassLabel="RANGER"
 
-[MG_SEBMG_MG_Schemativ X2SchematicTemplate]
+[MG_SEBMG_MG_Schematic X2SchematicTemplate]
 m_strClassLabel="GRENADIER"
-[MG_SEBMG_BM_Schemativ X2SchematicTemplate]
+[MG_SEBMG_BM_Schematic X2SchematicTemplate]
 m_strClassLabel="GRENADIER"
 
 [SR_SEBSR_MG_Schematic X2SchematicTemplate]
